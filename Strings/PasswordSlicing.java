@@ -10,6 +10,7 @@ public class PasswordSlicing
         int size1 = password.length();
         System.out.print("Please type in the password >>: ");
         userPass = input.nextLine();
+        input.close();
         int size2 = userPass.length();
         if(size1 == size2)
         {
